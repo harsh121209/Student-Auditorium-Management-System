@@ -1,0 +1,7 @@
+.eachRowInSheet {
+  margin: 0 auto 0 auto;
+  max-width: 1000px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

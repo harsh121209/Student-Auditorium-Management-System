@@ -1,0 +1,5 @@
+1. shows with same names added into database, problem occurs at ticket booking.
+2. in ticket booking if ticketid state is not updated before we add it into database, we will fill the seats, withouting having ticked id,
+   results in a problem , when we are trying to cancel the ticket by using printed ticket id.
+
+3. book tickets by searching only correct name , change of a capital letter to small or vice versa leads to an error in cancel ticket.

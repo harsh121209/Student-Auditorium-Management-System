@@ -1,0 +1,71 @@
+/* .inputEditExpenditure {
+  background-color: black;
+  color: black;
+} */
+.eachShow {
+  margin: 0 auto 0 auto;
+  max-width: 1500px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+._btnExpenditure {
+  display: inline-block;
+  padding: 12px 24px;
+  border: 1px solid white;
+  border-radius: 4px;
+  transition: all 0.2s ease-in;
+  position: relative;
+  overflow: hidden;
+  font-size: 19px;
+  color: white;
+  background-color: black;
+  z-index: 1;
+}
+
+._btnExpenditure:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+._btnExpenditure:after {
+  content: "";
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: rgb(44, 159, 157);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+._btnExpenditure:hover {
+  color: #ffffff;
+  border: 1px solid rgb(44, 159, 157);
+}
+
+._btnExpenditure:hover:before {
+  top: -35%;
+  background-color: rgb(44, 159, 157);
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+._btnExpenditure:hover:after {
+  top: -45%;
+  background-color: rgb(44, 159, 157);
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}

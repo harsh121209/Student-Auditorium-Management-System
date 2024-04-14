@@ -1,0 +1,10 @@
+.shows {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.shows {
+  color: white;
+  min-height: 800px;
+  /* background-color: grey; */
+}

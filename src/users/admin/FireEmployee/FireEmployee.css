@@ -1,0 +1,63 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+
+  background-color: darkcyan;
+  border-radius: 20px;
+  padding: 30px 20px;
+  box-shadow: 100px 100px 80px rgba(0, 0, 0, 0.03);
+}
+
+.title_fire {
+  color: whitesmoke;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.sub {
+  text-align: center;
+  color: black;
+  font-size: 14px;
+  width: 100%;
+}
+
+.sub.mb {
+  margin-bottom: 1px;
+}
+
+.sub a {
+  color: rgb(23, 111, 211);
+}
+
+.input,
+.button {
+  border: none;
+  outline: none;
+  width: 500px;
+  align-self: center;
+  padding: 16px 10px;
+  background-color: rgb(247, 243, 243);
+  border-radius: 10px;
+  box-shadow: 12.5px 12.5px 10px rgba(0, 0, 0, 0.015),
+    100px 100px 80px rgba(0, 0, 0, 0.03);
+}
+
+.button {
+  margin-top: 12px;
+  background-color: black;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.input:focus {
+  border: 1px solid rgb(23, 111, 211);
+}
+
+#file {
+  display: none;
+}
