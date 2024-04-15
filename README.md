@@ -1,4 +1,4 @@
-//Made By Ram Kumar Maddineni.
+//Made By Harsh Raj.
 //NIT Rourkela
 
 
@@ -19,8 +19,8 @@ the issue is when we reload the links are getting broken , making us to click th
 So, prefer local server.
 
 For login credentials refer me:
-Name : Maddineni Ramkumar.
-Roll : 120CS0174.
+Name : Harsh Raj.
+Roll : 121CS0209.
 
 For frontend : ReactJs.
 
